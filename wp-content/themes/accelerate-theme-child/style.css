@@ -54,6 +54,23 @@
 	text-transform: uppercase;
 }
 
+.individual-featured-work {
+    float:left;
+    margin: 40 40 40 40;
+    padding:inherit;
+}
+
+div.site-content h3 {
+    text-align: center;
+}
+
+ul.homepage-featured-work {
+    list-style: none;
+    display:inherit;
+}
+
+
+
 /* Case Studies */
 
 article.case-study {
