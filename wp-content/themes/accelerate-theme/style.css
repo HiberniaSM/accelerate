@@ -172,6 +172,8 @@ blockquote footer:before {
 figure, img {
    max-width: 100%;
    height: auto;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 iframe {
    width: 100%;
@@ -612,6 +614,11 @@ body {
 a.button, a.button:link {
 	color:#fff;
 }
+
+#menu-social-media-nav .social-media-menu ul {
+    list-style: none;
+}
+
 /* End HOMEPAGE STYLES */
 
 /* FOOTER STYLES */

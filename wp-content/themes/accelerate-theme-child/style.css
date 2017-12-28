@@ -66,10 +66,40 @@ div.site-content h3 {
 
 ul.homepage-featured-work {
     list-style: none;
-    display:inherit;
+    display:inline-block;
+    padding: 0em .4em 0em .4em;
+    margin: 0.1em 0.1em 0.1em 0.1em;
 }
 
+section.featured-work h4 {
+    text-align: center;
+    flex-wrap: wrap;
+}
 
+ul.social-media-menu {
+    list-style:none;
+    display:inline-flex;
+    margin: 0 1em 0 1em;
+}
+
+ul.social-media-menu li {
+    padding: 0 .3em 0 .3em;
+}
+
+ul.social-media-menu li a {
+    color: #909090;
+}
+
+.menu-item i._mi {
+    margin-top: -.265em;
+    width: 1.2em;
+    height: 1.2em;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    border-radius: 50%;
+    color:white;
+    background-color: black;
+}
 
 /* Case Studies */
 
@@ -86,10 +116,13 @@ aside.case-study-sidebar {
 div.case-study-images {
     float:left;
     width:606px;
+    padding-left: 0;
+    padding-right:0;
 }
 
 div.case-study-images img {
     margin-bottom: 50px;
     border:1px solid #dddddd;
-    
+    width:100%;
+    height:auto;
 }

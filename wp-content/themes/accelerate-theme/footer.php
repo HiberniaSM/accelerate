@@ -9,8 +9,10 @@
  * @since Accelerate Marketing 2.0
  */
 ?>
-
-		</div><!-- #main -->
+<!DOCTYPE html>
+<html>
+<body>
+		<div><!-- #main -->
 
 		<footer id="colophon" class="site-footer clearfix" role="contentinfo">
 			<div class="site-info">

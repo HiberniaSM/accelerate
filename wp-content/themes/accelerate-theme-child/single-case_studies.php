@@ -29,9 +29,9 @@ get_header(); ?>
  
 			<?php the_content(); ?>
 					
-			<p class="read-more-link"><a href="<?php echo $link; ?>">Visit Live Site ›</a></p>
+			<p class="read-more-link"><a href="<?php echo $link; ?>">View Live Site ›</a></p>
 		</aside>
-</article>
+
     <div class="case-study-images">    
         <?php if(image_1) { ?>
         <?php    echo wp_get_attachment_image( $image_1, $size ); ?>
@@ -43,7 +43,8 @@ get_header(); ?>
         <?php    echo wp_get_attachment_image( $image_3, $size ); ?>
         <?php } ?>
         </div>
-        
+    </article>
+            
         <?php endwhile; ?>
 		</div><!-- .main-content -->
 
