@@ -24,7 +24,7 @@
 #masthead nav ul li {
     float:left;
     margin:0 10px;
-}
+}  
 
 .button {
 	background: #45ac9d;
@@ -171,3 +171,162 @@ textarea#nf-field-3 {
     border-color: rgb(191, 191, 191);
 }
 
+/* About Page */
+
+article.examples h2 {
+    font-size: 1.3em;
+}
+
+.main-content {
+    width: 100%;
+    padding: 0 0 0 0;
+}
+
+.the_content {
+    text-align: center;
+    max-width: 520px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0.5%;
+}
+
+.the_content p {
+    padding-top: 0;
+}
+
+.the_banner {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+	text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0 0 2.5em;
+    padding: 4em 0;
+    position: 
+}
+
+.the_banner h3 {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 660px;
+    font-size: 1.45em;
+}
+
+#contact {
+    margin: 20px auto;
+    max-width: 960px;
+    border-top: 1px solid #bfbfbf;
+    padding-top: 4em;
+    padding-bottom: 2.5em;
+    margin-bottom: 4em;
+    max-height: 200px;
+}
+
+#contact h3 {
+    display: inline-block;
+    float: left;
+    font-size: 1.5em;
+    line-height: 1em;
+    margin: .6em 0 .8em 3em; 
+}
+
+#contact a.button {
+    display: inline-block;
+    float: right;
+    margin-right: 200px;
+    line-height: 1em;
+}
+
+.examples {
+    display:flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    max-width: 960px;
+    margin: 15px auto;
+}
+
+.section {
+    max-height: 300px;
+    margin: 10px;
+}
+
+.img_r {
+    float: right;
+    max-width: 30%;
+    display: inline;
+    position: relative;
+    bottom: 75px;
+}
+
+.img_l {
+    float: left;
+    max-width: 30%;
+    display: inline;
+    position: relative;
+    bottom: 75px;
+}
+
+.description_r {
+    max-width: 70%;
+    float: right;
+}
+
+.description_l {
+    max-width: 70%;
+    float: left;
+}
+
+.header_l {
+    margin-right: 30%;
+}
+
+.header_r {
+    margin-left: 30%;
+}
+
+/* 404 page designs */ 
+
+.error_main {
+    display: flex;
+    margin-top: 20px;
+}
+
+header h1 {
+    padding-top: 50px;
+    margin: 0 auto; 
+    font-style: italic;
+    border-bottom: 1px black dotted;
+    color: #45ac9d;
+    font-size: 40px;
+    font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+}
+
+header h4 {
+    margin: 50px 560px auto 0;
+    padding-left: 0;
+    max-width: 400px;
+    text-align: none;
+    font-size: 20px;
+    font-family: 'Londrina Solid', 'Montserrat', 'Open Sans', Arial, sans-serif;
+}
+
+.error_text {
+    float: right;
+    max-width: 55%;
+    margin-right: 60px;
+}
+
+.error_img {
+    float: left; 
+    max-width: 35%;
+    position: relative;
+    bottom: 50px;
+}
+
+.error_text a {
+    color: #45ac9d;
+}
+
+.error_text a:hover {
+    color: black;
+}
