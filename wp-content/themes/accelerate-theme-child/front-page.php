@@ -50,18 +50,30 @@ get_header(); ?>
 
 </section>
 
-<section class="recent-posts">
- <div class="site-content">
-  <div class="blog-post">
-   <h4>From the Blog</h4>
-    <?php query_posts('posts_per_page=1'); ?>
-     <?php while ( have_posts() ) : the_post(); ?>
-       <h2><?php the_title(); ?></h2>
-       <?php the_excerpt(); ?> 
-     <?php endwhile; ?> 
-    <?php wp_reset_query(); ?>
-   </div>
- </div>
-</section>
+<div class="posts-tweets">
+    
+    <section class="recent-posts">
+            <div class="blog-post">
+                <h4>From the Blog</h4>
+                    <?php query_posts('posts_per_page=1'); ?>
+                        <?php while ( have_posts() ) : the_post(); ?>
+                        <h2><?php the_title(); ?></h2>
+                        <?php the_excerpt(); ?> 
+                    <?php endwhile; ?> 
+                <?php wp_reset_query(); ?>
+            </div>
+    </section>
+
+        <section class="twitter-feed">
+            <h4>Recent Tweet</h4>
+                <?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+                    <div id="secondary" class="widget-area" role="complementary">
+                        <?php dynamic_sidebar( 'sidebar-2' ); ?>
+                    </div>
+                <?php endif; ?>
+            <a href="https://twitter.com/MichaelOnassis" target="_blank"><h5>Follow Us ></h5></a>
+        </section>
+
+</div>
 
 <?php get_footer(); ?>

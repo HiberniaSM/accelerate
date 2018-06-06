@@ -17,7 +17,7 @@ get_header(); ?>
 	<div id="primary" class="site-content">
 		<div class="main-content" role="main">
 			<body id="error">
-                <header>
+                <header class="error_header">
                     <h1>404! Incoming!</h1>
                     <h4>You are in the wrong place my friend!</h4>
                 </header>
